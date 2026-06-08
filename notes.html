@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/note.css">
+        <script type="module" src="js/Notes/notesMain.js" defer></script>
+        <title>Revo</title>
+    </head>
+    <body>
+        <header class="hdr">
+            <a href="index.html" target="_blank" class="hdr_logo">
+                <img src="imgs/logo.svg"  alt="Logo" class="hdr_logo-img">
+            </a>
+            <nav class="hdr_nav"><ul class="hdr_navLs">
+                <li><a href="notes.html" class="hdr_navLs-item">Заметки</a></li>
+                <li><a href="" class="hdr_navLs-item">ссылка</a></li>
+                <li><a href="" class="hdr_navLs-item">ссылка</a></li>
+                <li><a href="" class="hdr_navLs-item">ссылка</a></li>
+                <li><a href="" class="hdr_navLs-item">ссылка</a></li>
+            </ul></nav>
+        </header>
+        <main class="main">
+            <div class="main_note">
+                <ul class="main_note_ls">
+                </ul>
+                <div class="main_note_right">
+                    <div class="main_note_right_menu">
+                        <ul class="main_note_right_menu_btnLs">
+                            <li><button class="main_note_right_menu_btnLs-item"    id="new"></button></li>
+                            <li><button class="main_note_right_menu_btnLs-item" id="clouse"></button></li>
+                            <li><button class="main_note_right_menu_btnLs-item" id="favour"></button></li>
+                            <li><button class="main_note_right_menu_btnLs-item" id="search"></button></li>
+                        </ul>
+                        <input type="search" class="main_note_right_menu_search">
+                    </div>
+                    <form class="main_note_right_redact">
+                        <input type="text" name="title" class="main_note_right_redact_title" required>
+                        <textarea type="text" name="text" class="main_note_right_redact_text" required></textarea>
+                        <button type="submit">Соранить</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="futr">
+            <a href="http://" target="_blank" class="futr_logo"><img src="imgs/logo.svg" alt="Logo" class="futr_logo-img"></a>
+        </footer>
+    </body>
+</html>

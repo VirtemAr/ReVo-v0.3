@@ -1,0 +1,33 @@
+body {background-color: #1b1b1b;}
+
+/* .hdr-conteiner {position: ;} */
+.hdr {
+    background-color: #790000; 
+    display: flex; column-gap: 80px;
+    height: 80px; width: 100%;
+    border-bottom: 12px double #fffbbf;
+    position: fixed; z-index: 32;
+}
+
+.hdr_logo-img{
+    padding: 5px;
+    border: 12px double #fffbbf;
+    background-color: #790000;
+}
+
+.hdr_nav {display: flex; flex-direction: column; justify-content: center;}
+.hdr_navLs {display: flex; column-gap: 50px;}
+.hdr_navLs-item {color: #fffbbf; font-size: 23px;}
+
+/* ----------- *//* ----------- *//* ----------- */
+.main {padding-top: 180px; margin-left: 96px;}
+/* ----------- *//* ----------- *//* ----------- */
+
+.futr {
+    background-color: #790000; 
+    display: flex; column-gap: 80px;
+    width: 100%;
+    margin-top: 100px;
+    border-top: 12px double #fffbbf;
+    z-index: 19;
+}
