@@ -30,7 +30,7 @@
                 <div class="main_note_right">
                     <div class="main_note_right_menu">
                         <ul class="main_note_right_menu_btnLs">
-                            <li><button class="main_note_right_menu_btnLs-item"    id="new"></button></li>
+                            <li><button class="main_note_right_menu_btnLs-item" id="new"></button></li>
                             <li><button class="main_note_right_menu_btnLs-item" id="clouse"></button></li>
                             <li><button class="main_note_right_menu_btnLs-item" id="favour"></button></li>
                             <li><button class="main_note_right_menu_btnLs-item" id="search"></button></li>
@@ -38,9 +38,18 @@
                         <input type="search" class="main_note_right_menu_search">
                     </div>
                     <form class="main_note_right_redact">
-                        <input type="text" name="title" class="main_note_right_redact_title" required>
+                        <div class="main_note_ls-item main_note_right_redact_note-prev">
+                            <div class="main_note_ls-item_bg">
+                                <input class="main_note_right_redact_title" type="text" name="title"  required>
+                                <p class="main_note_ls-item_text main_note_ls-item_time">вавва</p>
+                                <div class="main_note_ls-item_btns">
+                                    <button class="main_note_right_redact_note-prev_submit" type="submit"></button>
+                                    <button class="main_note_ls-item_btns_favour-0"></button>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <textarea type="text" name="text" class="main_note_right_redact_text" required></textarea>
-                        <button type="submit">Соранить</button>
                     </form>
                 </div>
             </div>
